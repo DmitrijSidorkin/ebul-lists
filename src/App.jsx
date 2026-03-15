@@ -41,6 +41,11 @@ function App() {
         <div className='lists-category'>
           <p className='category-title'>Eurovision Lists</p>
           <div className='lists'>
+            <a className='list-link' href="https://eurovision-2026-list.pages.dev/">
+            <div className='list'>
+              <p className='list-title'>Eurovision 2026</p>
+            </div>
+            </a>
             <a className='list-link' href="https://eurovision-2025-list.pages.dev/">
             <div className='list'>
               <p className='list-title'>Eurovision 2025</p>
