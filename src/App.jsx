@@ -1,12 +1,11 @@
-import { useState } from 'react'
 import './App.css'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
       <h1 className='page-title'>Ebul Lists</h1>
+      <p className='page-subtitle'>Curated music & Eurovision rankings across the decades</p>
       <div className='lists-table'>
         <div className='lists-category'>
           <p className='category-title'>Years Lists</p>
@@ -55,6 +54,16 @@ function App() {
             <div className='list'>
               <p className='list-title'>Eurovision 2024</p>
             </div>
+            </a>
+          </div>
+        </div>
+        <div className='lists-category'>
+          <p className='category-title'>Other Lists</p>
+          <div className='lists'>
+            <a className='list-link' href="https://kuki-metal-list.pages.dev/">
+              <div className='list'>
+                <p className='list-title'>Kuki Metal List 2025</p>
+              </div>
             </a>
           </div>
         </div>
