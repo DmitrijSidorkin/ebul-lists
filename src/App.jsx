@@ -65,8 +65,6 @@ function App() {
                 <p className='list-title'>Kuki Metal List 2025</p>
               </div>
             </a>
-          </div>
-          <div className='lists'>
             <a className='list-link' href="https://kuki-rock-metal-list-2026.pages.dev/">
               <div className='list'>
                 <p className='list-title'>Kuki Rock/Metal List 2026</p>
